@@ -1,0 +1,276 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.container{
+    width: 1150px;
+    margin: auto;
+}
+.clear{
+    overflow: hidden;
+}
+.header{
+    background-color: #001544;
+}
+.head{
+    width: 1290px;
+    margin: auto;
+}
+.logo{
+    width: 35%;
+    float: left;
+}
+.logo img{
+    width: 150px;
+    height: 88px;
+
+}
+.navbar{
+    width: 65%;
+    float: right;
+}
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    padding:35px;
+    color: white;  
+}
+.carousel-container{
+    width:100%;
+    margin: auto;
+}
+.carousel-item{
+    background-color: bisque;
+    padding: 10px;
+}
+.carousel-contain{
+    width: 46%;
+    float: left;
+    margin-left: 2%;
+}
+.carousel-contain h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top:40px;
+
+}
+.carousel-contain h3 p{
+    margin: 25px 0px;
+}
+.carousel-contain a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(255, 38, 0);
+    padding: 10px 30px;
+    margin: 50px;
+    border-radius: 20px;
+    color: white;
+}
+.carousel-img{
+    width: 48%;
+    float: right;
+}
+.carousel-img img{
+    width: 100%;
+    height: 500px;
+}
+.customer-services{
+    text-align: center;
+    margin: 80px 0px;
+    color: white;
+}
+.customer-service h1{
+    margin:50px 0px;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    
+}.customer-section{
+    background-image: url(../images/about-banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.about-us{
+    width: 261px;
+    float: left;
+    box-shadow: 5px 5px 10px gray;
+    height: 450px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.337);
+}
+.photo img{
+    width:100%;
+    height: 200px;
+}
+.about-btn{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(255, 44, 7);
+    color:lightcyan;
+    border-radius: 5px;
+    display:inline-block;
+    padding:10px 20px;
+    margin:10px 20px;
+}
+.destination-cuntrey{
+    height: 450px;
+    background:lightcyan;
+    margin: 60px 0px;
+}
+.destination-contant{
+    border-bottom: 1px solid black;
+}
+.instructor{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin: 20px;
+}
+
+.tachers{
+    width: 21%;
+    float: left;
+    margin: 19px;
+}
+.tachers img{
+    width: 100%;
+    height: 250px;
+
+}
+.tacher-info{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    color: white;
+}
+.destination-contant h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.destination-contant h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.tour-type-section{
+    background-image: url(../images/Frame\ 21\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.tour-type-contant{
+    text-align: center;
+    color:white;
+}
+.tour-type-item{
+    width: 750px;
+    margin: auto;
+}
+.tour-types img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.tour-types{
+    border: 5px solid gray;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+
+}
+.review-container{
+    width: 50%;
+    float: left;
+}
+.review-contant{
+    font-size:25px;
+    overflow: hidden;
+    margin: 30px 0px;
+
+}
+.review-contant h1{
+    float: left;
+}
+.review-contant h2{
+    float: right;
+}
+.review-btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    background-color:blue;
+    color:white;
+    border-radius: 14px
+}
+.latest-post img{
+    width: 500px;
+    height: 400px;
+}
+.post-contant{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    box-shadow: 5px 5px 10px;
+    margin-left: 50px;
+    background-color: azure;
+}
+.user-container{
+    width: 50%;
+    float: right;
+}
+.user-1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+
+}
+.user-1 h1{
+    display: inline-block;
+}
+.last-baner{
+    background-image: url("../images/about\ last\ -banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 350px;
+    padding: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-section{
+    height: 228px;
+    background-color: #001544;
+    color: white;
+}
+.footer{
+    width: 261px;
+    margin: 10px;
+    float: left;
+}

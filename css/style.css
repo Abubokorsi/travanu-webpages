@@ -1,0 +1,404 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+.clear{
+    overflow: hidden;
+}
+.top-nav{
+    background-color:#001544;
+    height: 120px;
+
+}
+.top-container{
+    width: 1320px;
+    margin: auto;
+}
+.location{
+    width:35%;
+    float: left;
+}
+.location a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+}
+.social{
+    width: 35%;
+    float:right;
+}
+.social a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color:tomato;
+    padding: 20px 29px;
+
+}
+.header{
+    position:relative;
+}
+.header-container{
+    background-color: white;
+    width: 1290px;
+    margin: auto;
+    position: absolute;
+    bottom: -40px;
+    left: 142px;
+    border-radius: 15px;
+}
+.logo{
+    width: 35%;
+    float: left;
+}
+.logo img{
+    width: 150px;
+    height: 88px;
+
+}
+.navbar{
+    width: 60%;
+    float: right;
+}
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    
+    color: black;
+    
+    
+}
+.container{
+    width: 1150px;
+    margin: auto;
+}
+.banner{
+    background-image: url("../images/banner\ bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    text-align: center;
+    color: white;
+}
+.banner h2{
+    padding-top: 150px;
+}
+.banner h1{
+    padding:5px
+}
+.banner-btn{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    background: hsl(238, 93%, 46%);
+    padding: 10px;
+    color: white;
+    font-size:22px ;
+}
+.service-section{
+    height: 400px;
+    background-color: rgb(175, 248, 248);
+    
+}
+.service-card{
+    width: 1150px;
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+}
+.service{
+    width: 261px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px gray;
+    background-color: lightcyan;
+    height: 350px;
+}
+.service-image{
+    height: 200px;
+}
+.service-change{
+    padding: 30px 0px;
+}
+.service-contain p{
+    margin: 5px 0px;
+}
+.service-btn{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    background:#fb2702;
+    padding: 10px;
+    color: white;
+    
+}
+.reservice{
+    color: white;
+    background-color: #001544;
+
+}
+.reservice h5{
+    margin: 30px 0px;
+}
+.reservice a{
+    margin-top:43px;
+}
+.destination{
+    height: 200px;
+
+}
+.destination-contain{
+    width: 50%;
+    float: left;
+}
+.destination-contain h3{
+    margin: 40px 22px;
+}
+.destination-contain p{
+    margin-left: 22px;
+}
+.destination-btn{
+    width: 50%;
+    float: right;
+}
+.destination-btn a{
+    margin-top:120px;
+    margin-left:390px;
+}
+.descation-section{
+    height: 500px;
+}
+.descation-service{
+    height: 460px;
+    width: 345px;
+    box-shadow: 3px 3px 5px gray;
+    padding: 5px;
+    margin:15px;
+    float: left;
+}
+.descation-image img{
+    width: 100%;
+}
+.descation-mid h5 ,p{
+    margin: 22px 0px;
+}
+.last-image{
+    width: 45%;
+    float: left;
+    margin-left:5px ;
+}
+.last-btn{
+    width: 45%;
+    float: left;
+    margin-left: 20px;
+}
+.last-btn a{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    background:#fb2702;
+    padding: 5px 10px;
+    color: white;
+}
+.promot-section{
+    height: 500px;
+    padding: 50px 0px;
+}
+.promot-service{
+    height:276px;
+    width: 345px;
+    box-shadow: 3px 3px 5px gray;
+    padding: 5px;
+    margin:15px;
+    float: left; 
+}
+.promot-img{
+    width: 100%;
+}
+.promot-mid h5 ,p{
+    margin: 22px 0px;
+}
+.promot-last{
+    padding-top: 35px;
+}
+.promot-image{
+    width: 45%;
+    float: left;
+    margin-left:5px ;
+}
+.promot-btn{
+    width: 45%;
+    float: left;
+    margin-left: 20px;
+}
+.promot-btn a{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    background:#fb2702;
+    padding: 5px 10px;
+    color: white;
+}
+.last-banner-section{
+    height: 600px;
+    padding: 100px 0px;
+}
+.last-banner-contain{
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color:  #001544;
+    color: rgba(255, 255, 255, 0.379);
+    height: 400px;
+}
+.last-banner-contain h1{
+    font-size: 50px;
+    font-weight: 1000;
+    margin: 20px;
+}
+.last-banner-contain h2{
+    font-size: 40px;
+    font-weight: 1000;
+    margin: 20px;
+}
+.last-banner-contain p{
+    margin: 40px 0px;
+}
+.last-banner-image{
+    width: 50%;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 80px;
+}
+.last-banner-image img{
+    width:857px;
+    height: 400px;
+
+}
+.customer-section{
+    text-align: center;
+    background-color: lightcyan;
+    height: 250px;
+    padding: 50px;
+}
+.customer-info-section{
+    height:500px;
+    padding: 50px 0px;
+}
+.customer{
+    width: 261px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 3px 3px 5px gray;
+    margin: 10px;
+    height: 370px;
+    border-radius: 5px;
+}
+.customer h4{
+    margin:30px 0px;
+}
+.developer{
+    width: 120px;
+    height: 116px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.post-section{
+    height: 730px;
+    margin: 50px 0px;
+}
+.post{
+    width: 60%;
+    float: left;
+    box-shadow: 3px 3px 5px gray;
+}
+.post img{
+    width: 100%;
+    height: 380px;
+}
+.post-contain{
+    padding: 30px;
+}
+.post-contain h3{
+    margin: 30px 0px;
+}
+.comment{
+    width: 35%;
+    float:right;
+    
+}
+.comment-base{
+    height: 325px;
+    box-shadow: 3px 3px 5px gray;
+    margin: 10px 0px;
+    padding: 15px 5px;
+}
+.comment-base h3{
+    margin: 15px 0px;
+
+}
+.comment-base a{
+    margin: 10px 20px;
+}
+.section-heading{
+    height: 250px;
+}
+.last-heading{
+    text-align: center;
+}
+.login{
+    border-radius: 25px;
+    border: 1px solid gray;
+    display: inline-block;
+    margin-left:355px;
+    
+}
+.submit{
+    display: inline-block;
+    border-radius: 25px 0px 0px 25px ;
+    padding: 10px;
+    width: 120px;
+    background-color: tomato;
+    color: white;
+}
+.email{
+    display: inline-block;
+    border-radius:0px 25px 25px 0px;
+    padding: 10px;
+    width: 300px;
+}
+.footer-section{
+    height: 228px;
+    background-color: #001544;
+    color: white;
+}
+.footer{
+    width: 261px;
+    margin: 10px;
+    float: left;
+}
+.footer-bottom{
+    background-color: #001544;
+    height: 100px;
+    color: white;
+}
+.footer-logo{
+    width: 70%;
+    float: left;
+}
+.footer-logo img{
+    width: 150px;
+    height: 80px;
+}
+.add{
+    width: 30%;
+    float: right;
+    padding: 20px 0px ;
+}

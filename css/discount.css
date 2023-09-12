@@ -1,0 +1,159 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.container{
+    width: 1150px;
+    margin: auto;
+}
+.clear{
+    overflow: hidden;
+}
+.header{
+    background-color: #001544;
+}
+.head{
+    width: 1290px;
+    margin: auto;
+}
+.logo{
+    width: 35%;
+    float: left;
+}
+.logo img{
+    width: 150px;
+    height: 88px;
+
+}
+.navbar{
+    width: 65%;
+    float: right;
+}
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    padding:35px;
+    color: white;  
+}
+.customer-section{
+    text-align: center;
+    margin: 30px 0px;
+    background-image: url("../images/discount banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 50px 0px;
+}
+.customer-section h1{
+    margin:30px 0px;
+    font-size: 40px;
+    color:#001544;
+    font-weight: 900;
+    
+}
+.customer-section p{
+    font-size: 30px;
+    color:#001544;
+    font-weight: 400;
+}
+.descation-section{
+    height: 500px;
+}
+.descation-service{
+    height: 395px;
+    width: 294px;
+    box-shadow: 3px 3px 5px gray;
+    padding: 5px;
+    margin:15px;
+    float: left;
+}
+.descation-image img{
+    width: 100%;
+    height: 192px;
+}
+.descation-mid h5 ,p{
+    margin: 10px 0px;
+}
+.descation-mid h6{
+    color:goldenrod;
+}
+.last-image{
+    width: 45%;
+    float: left;
+    margin-left:5px ;
+}
+.last-image img{
+    width: 100%;
+
+}
+.last-btn{
+    width: 45%;
+    float: left;
+    margin-left: 18px;
+}
+.last-btn a{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    background:#fb2702;
+    padding: 5px 10px;
+    color: white;
+}
+.discount-service{
+    width: 972px;
+    margin: auto;
+}
+.discount-heading-section{
+    padding: 50px;
+    text-align: center;
+    background-color: lightcyan;
+}
+.discount-topic-section{
+    margin: 30px 0px;
+}
+.discount-img{
+    width: 50%;
+    float: left;
+}
+.discount-img img{
+    width: 100%;
+}
+.discount-contain{
+    width: 45%;
+    float: right;
+    margin-left: 4%;
+}
+.discount-contain a{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    background:#fb2702;
+    padding: 10px 25px;
+    color: white;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-section{
+    height: 228px;
+    background-color: #001544;
+    color: white;
+}
+.footer{
+    width: 261px;
+    margin: 10px;
+    float: left;
+}
